@@ -1,0 +1,14 @@
+{
+  "name": "mine_control",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "backpack-core": "^0.5.0",
+    "express": "^4.16.2"
+  },
+  "scripts": {
+    "dev": "backpack",
+    "reporter-watch": "nodemon --exec \"python\" .\\reporter.py  -e py"
+  }
+}

@@ -1,0 +1,1689 @@
+{
+    "nvidia_smi_log": {
+        "timestamp": "Thu Jan 18 18:54:58 2018",
+        "driver_version": "390.65",
+        "attached_gpus": "8",
+        "gpu": [
+            {
+                "@id": "00000000:01:00.0",
+                "product_name": "GeForce GTX 1080 Ti",
+                "product_brand": "GeForce",
+                "display_mode": "Disabled",
+                "display_active": "Disabled",
+                "persistence_mode": "N/A",
+                "accounting_mode": "Disabled",
+                "accounting_mode_buffer_size": "1920",
+                "driver_model": {
+                    "current_dm": "WDDM",
+                    "pending_dm": "WDDM"
+                },
+                "serial": "N/A",
+                "uuid": "GPU-4e2135c6-3b3e-069e-7383-12db7720bb1d",
+                "minor_number": "N/A",
+                "vbios_version": "86.02.40.00.3A",
+                "multigpu_board": "No",
+                "board_id": "0x100",
+                "gpu_part_number": "N/A",
+                "inforom_version": {
+                    "img_version": "G001.0000.01.04",
+                    "oem_object": "1.1",
+                    "ecc_object": "N/A",
+                    "pwr_object": "N/A"
+                },
+                "gpu_operation_mode": {
+                    "current_gom": "N/A",
+                    "pending_gom": "N/A"
+                },
+                "gpu_virtualization_mode": {
+                    "virtualization_mode": "None"
+                },
+                "pci": {
+                    "pci_bus": "01",
+                    "pci_device": "00",
+                    "pci_domain": "0000",
+                    "pci_device_id": "1B0610DE",
+                    "pci_bus_id": "00000000:01:00.0",
+                    "pci_sub_system_id": "120F10DE",
+                    "pci_gpu_link_info": {
+                        "pcie_gen": {
+                            "max_link_gen": "2",
+                            "current_link_gen": "2"
+                        },
+                        "link_widths": {
+                            "max_link_width": "16x",
+                            "current_link_width": "1x"
+                        }
+                    },
+                    "pci_bridge_chip": {
+                        "bridge_chip_type": "N/A",
+                        "bridge_chip_fw": "N/A"
+                    },
+                    "replay_counter": "0",
+                    "tx_util": "19000 KB/s",
+                    "rx_util": "42000 KB/s"
+                },
+                "fan_speed": "100 %",
+                "performance_state": "P2",
+                "clocks_throttle_reasons": {
+                    "clocks_throttle_reason_gpu_idle": "Not Active",
+                    "clocks_throttle_reason_applications_clocks_setting": "Not Active",
+                    "clocks_throttle_reason_sw_power_cap": "Not Active",
+                    "clocks_throttle_reason_hw_slowdown": "Not Active",
+                    "clocks_throttle_reason_hw_thermal_slowdown": "Not Active",
+                    "clocks_throttle_reason_hw_power_brake_slowdown": "Not Active",
+                    "clocks_throttle_reason_sync_boost": "Not Active",
+                    "clocks_throttle_reason_sw_thermal_slowdown": "Not Active"
+                },
+                "fb_memory_usage": {
+                    "total": "11264 MiB",
+                    "used": "1209 MiB",
+                    "free": "10055 MiB"
+                },
+                "bar1_memory_usage": {
+                    "total": "256 MiB",
+                    "used": "229 MiB",
+                    "free": "27 MiB"
+                },
+                "compute_mode": "Default",
+                "utilization": {
+                    "gpu_util": "99 %",
+                    "memory_util": "18 %",
+                    "encoder_util": "0 %",
+                    "decoder_util": "0 %"
+                },
+                "encoder_stats": {
+                    "session_count": "0",
+                    "average_fps": "0",
+                    "average_latency": "0"
+                },
+                "ecc_mode": {
+                    "current_ecc": "N/A",
+                    "pending_ecc": "N/A"
+                },
+                "ecc_errors": {
+                    "volatile": {
+                        "single_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        },
+                        "double_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        }
+                    },
+                    "aggregate": {
+                        "single_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        },
+                        "double_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        }
+                    }
+                },
+                "retired_pages": {
+                    "multiple_single_bit_retirement": {
+                        "retired_count": "N/A",
+                        "retired_page_addresses": "N/A"
+                    },
+                    "double_bit_retirement": {
+                        "retired_count": "N/A",
+                        "retired_page_addresses": "N/A"
+                    },
+                    "pending_retirement": "N/A"
+                },
+                "temperature": {
+                    "gpu_temp": "64 C",
+                    "gpu_temp_max_threshold": "96 C",
+                    "gpu_temp_slow_threshold": "93 C",
+                    "gpu_temp_max_gpu_threshold": "N/A",
+                    "memory_temp": "N/A",
+                    "gpu_temp_max_mem_threshold": "N/A"
+                },
+                "power_readings": {
+                    "power_state": "P2",
+                    "power_management": "Supported",
+                    "power_draw": "250.79 W",
+                    "power_limit": "260.00 W",
+                    "default_power_limit": "260.00 W",
+                    "enforced_power_limit": "260.00 W",
+                    "min_power_limit": "130.00 W",
+                    "max_power_limit": "300.00 W"
+                },
+                "clocks": {
+                    "graphics_clock": "1835 MHz",
+                    "sm_clock": "1835 MHz",
+                    "mem_clock": "5200 MHz",
+                    "video_clock": "1556 MHz"
+                },
+                "applications_clocks": {
+                    "graphics_clock": "N/A",
+                    "mem_clock": "N/A"
+                },
+                "default_applications_clocks": {
+                    "graphics_clock": "N/A",
+                    "mem_clock": "N/A"
+                },
+                "max_clocks": {
+                    "graphics_clock": "1999 MHz",
+                    "sm_clock": "1999 MHz",
+                    "mem_clock": "5705 MHz",
+                    "video_clock": "1620 MHz"
+                },
+                "max_customer_boost_clocks": {
+                    "graphics_clock": "N/A"
+                },
+                "clock_policy": {
+                    "auto_boost": "N/A",
+                    "auto_boost_default": "N/A"
+                },
+                "supported_clocks": "N/A",
+                "processes": {
+                    "process_info": [
+                        {
+                            "pid": "9584",
+                            "type": "C",
+                            "process_name": "C:\\Users\\jason\\AppData\\Local\\Programs\\NiceHash Miner 2\\NiceHash Miner 2.exe",
+                            "used_memory": "N/A"
+                        },
+                        {
+                            "pid": "9900",
+                            "type": "C",
+                            "process_name": "C:\\Users\\jason\\AppData\\Roaming\\nhm2\\bin\\excavator_server\\excavator.exe",
+                            "used_memory": "N/A"
+                        }
+                    ]
+                },
+                "accounted_processes": null
+            },
+            {
+                "@id": "00000000:02:00.0",
+                "product_name": "GeForce GTX 1080 Ti",
+                "product_brand": "GeForce",
+                "display_mode": "Disabled",
+                "display_active": "Disabled",
+                "persistence_mode": "N/A",
+                "accounting_mode": "Disabled",
+                "accounting_mode_buffer_size": "1920",
+                "driver_model": {
+                    "current_dm": "WDDM",
+                    "pending_dm": "WDDM"
+                },
+                "serial": "N/A",
+                "uuid": "GPU-16d3f11d-f8d7-a5e8-efcf-4761a49d2866",
+                "minor_number": "N/A",
+                "vbios_version": "86.02.39.00.71",
+                "multigpu_board": "No",
+                "board_id": "0x200",
+                "gpu_part_number": "N/A",
+                "inforom_version": {
+                    "img_version": "G001.0000.01.04",
+                    "oem_object": "1.1",
+                    "ecc_object": "N/A",
+                    "pwr_object": "N/A"
+                },
+                "gpu_operation_mode": {
+                    "current_gom": "N/A",
+                    "pending_gom": "N/A"
+                },
+                "gpu_virtualization_mode": {
+                    "virtualization_mode": "None"
+                },
+                "pci": {
+                    "pci_bus": "02",
+                    "pci_device": "00",
+                    "pci_domain": "0000",
+                    "pci_device_id": "1B0610DE",
+                    "pci_bus_id": "00000000:02:00.0",
+                    "pci_sub_system_id": "120F1B4C",
+                    "pci_gpu_link_info": {
+                        "pcie_gen": {
+                            "max_link_gen": "2",
+                            "current_link_gen": "2"
+                        },
+                        "link_widths": {
+                            "max_link_width": "16x",
+                            "current_link_width": "1x"
+                        }
+                    },
+                    "pci_bridge_chip": {
+                        "bridge_chip_type": "N/A",
+                        "bridge_chip_fw": "N/A"
+                    },
+                    "replay_counter": "0",
+                    "tx_util": "7000 KB/s",
+                    "rx_util": "19000 KB/s"
+                },
+                "fan_speed": "100 %",
+                "performance_state": "P2",
+                "clocks_throttle_reasons": {
+                    "clocks_throttle_reason_gpu_idle": "Not Active",
+                    "clocks_throttle_reason_applications_clocks_setting": "Not Active",
+                    "clocks_throttle_reason_sw_power_cap": "Not Active",
+                    "clocks_throttle_reason_hw_slowdown": "Not Active",
+                    "clocks_throttle_reason_hw_thermal_slowdown": "Not Active",
+                    "clocks_throttle_reason_hw_power_brake_slowdown": "Not Active",
+                    "clocks_throttle_reason_sync_boost": "Not Active",
+                    "clocks_throttle_reason_sw_thermal_slowdown": "Not Active"
+                },
+                "fb_memory_usage": {
+                    "total": "11264 MiB",
+                    "used": "914 MiB",
+                    "free": "10350 MiB"
+                },
+                "bar1_memory_usage": {
+                    "total": "256 MiB",
+                    "used": "229 MiB",
+                    "free": "27 MiB"
+                },
+                "compute_mode": "Default",
+                "utilization": {
+                    "gpu_util": "99 %",
+                    "memory_util": "18 %",
+                    "encoder_util": "0 %",
+                    "decoder_util": "0 %"
+                },
+                "encoder_stats": {
+                    "session_count": "0",
+                    "average_fps": "0",
+                    "average_latency": "0"
+                },
+                "ecc_mode": {
+                    "current_ecc": "N/A",
+                    "pending_ecc": "N/A"
+                },
+                "ecc_errors": {
+                    "volatile": {
+                        "single_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        },
+                        "double_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        }
+                    },
+                    "aggregate": {
+                        "single_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        },
+                        "double_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        }
+                    }
+                },
+                "retired_pages": {
+                    "multiple_single_bit_retirement": {
+                        "retired_count": "N/A",
+                        "retired_page_addresses": "N/A"
+                    },
+                    "double_bit_retirement": {
+                        "retired_count": "N/A",
+                        "retired_page_addresses": "N/A"
+                    },
+                    "pending_retirement": "N/A"
+                },
+                "temperature": {
+                    "gpu_temp": "52 C",
+                    "gpu_temp_max_threshold": "96 C",
+                    "gpu_temp_slow_threshold": "93 C",
+                    "gpu_temp_max_gpu_threshold": "N/A",
+                    "memory_temp": "N/A",
+                    "gpu_temp_max_mem_threshold": "N/A"
+                },
+                "power_readings": {
+                    "power_state": "P2",
+                    "power_management": "Supported",
+                    "power_draw": "260.91 W",
+                    "power_limit": "250.00 W",
+                    "default_power_limit": "250.00 W",
+                    "enforced_power_limit": "250.00 W",
+                    "min_power_limit": "125.00 W",
+                    "max_power_limit": "300.00 W"
+                },
+                "clocks": {
+                    "graphics_clock": "1771 MHz",
+                    "sm_clock": "1771 MHz",
+                    "mem_clock": "5005 MHz",
+                    "video_clock": "1493 MHz"
+                },
+                "applications_clocks": {
+                    "graphics_clock": "N/A",
+                    "mem_clock": "N/A"
+                },
+                "default_applications_clocks": {
+                    "graphics_clock": "N/A",
+                    "mem_clock": "N/A"
+                },
+                "max_clocks": {
+                    "graphics_clock": "1961 MHz",
+                    "sm_clock": "1961 MHz",
+                    "mem_clock": "5505 MHz",
+                    "video_clock": "1620 MHz"
+                },
+                "max_customer_boost_clocks": {
+                    "graphics_clock": "N/A"
+                },
+                "clock_policy": {
+                    "auto_boost": "N/A",
+                    "auto_boost_default": "N/A"
+                },
+                "supported_clocks": "N/A",
+                "processes": {
+                    "process_info": {
+                        "pid": "9900",
+                        "type": "C",
+                        "process_name": "C:\\Users\\jason\\AppData\\Roaming\\nhm2\\bin\\excavator_server\\excavator.exe",
+                        "used_memory": "N/A"
+                    }
+                },
+                "accounted_processes": null
+            },
+            {
+                "@id": "00000000:04:00.0",
+                "product_name": "GeForce GTX 1080 Ti",
+                "product_brand": "GeForce",
+                "display_mode": "Disabled",
+                "display_active": "Disabled",
+                "persistence_mode": "N/A",
+                "accounting_mode": "Disabled",
+                "accounting_mode_buffer_size": "1920",
+                "driver_model": {
+                    "current_dm": "WDDM",
+                    "pending_dm": "WDDM"
+                },
+                "serial": "N/A",
+                "uuid": "GPU-8742b47d-68d8-ebd8-e854-f3de08ce73b4",
+                "minor_number": "N/A",
+                "vbios_version": "86.02.39.00.71",
+                "multigpu_board": "No",
+                "board_id": "0x400",
+                "gpu_part_number": "N/A",
+                "inforom_version": {
+                    "img_version": "G001.0000.01.04",
+                    "oem_object": "1.1",
+                    "ecc_object": "N/A",
+                    "pwr_object": "N/A"
+                },
+                "gpu_operation_mode": {
+                    "current_gom": "N/A",
+                    "pending_gom": "N/A"
+                },
+                "gpu_virtualization_mode": {
+                    "virtualization_mode": "None"
+                },
+                "pci": {
+                    "pci_bus": "04",
+                    "pci_device": "00",
+                    "pci_domain": "0000",
+                    "pci_device_id": "1B0610DE",
+                    "pci_bus_id": "00000000:04:00.0",
+                    "pci_sub_system_id": "120F1B4C",
+                    "pci_gpu_link_info": {
+                        "pcie_gen": {
+                            "max_link_gen": "2",
+                            "current_link_gen": "2"
+                        },
+                        "link_widths": {
+                            "max_link_width": "16x",
+                            "current_link_width": "1x"
+                        }
+                    },
+                    "pci_bridge_chip": {
+                        "bridge_chip_type": "N/A",
+                        "bridge_chip_fw": "N/A"
+                    },
+                    "replay_counter": "0",
+                    "tx_util": "9000 KB/s",
+                    "rx_util": "26000 KB/s"
+                },
+                "fan_speed": "100 %",
+                "performance_state": "P2",
+                "clocks_throttle_reasons": {
+                    "clocks_throttle_reason_gpu_idle": "Not Active",
+                    "clocks_throttle_reason_applications_clocks_setting": "Not Active",
+                    "clocks_throttle_reason_sw_power_cap": "Active",
+                    "clocks_throttle_reason_hw_slowdown": "Not Active",
+                    "clocks_throttle_reason_hw_thermal_slowdown": "Not Active",
+                    "clocks_throttle_reason_hw_power_brake_slowdown": "Not Active",
+                    "clocks_throttle_reason_sync_boost": "Not Active",
+                    "clocks_throttle_reason_sw_thermal_slowdown": "Not Active"
+                },
+                "fb_memory_usage": {
+                    "total": "11264 MiB",
+                    "used": "913 MiB",
+                    "free": "10351 MiB"
+                },
+                "bar1_memory_usage": {
+                    "total": "256 MiB",
+                    "used": "229 MiB",
+                    "free": "27 MiB"
+                },
+                "compute_mode": "Default",
+                "utilization": {
+                    "gpu_util": "99 %",
+                    "memory_util": "19 %",
+                    "encoder_util": "0 %",
+                    "decoder_util": "0 %"
+                },
+                "encoder_stats": {
+                    "session_count": "0",
+                    "average_fps": "0",
+                    "average_latency": "0"
+                },
+                "ecc_mode": {
+                    "current_ecc": "N/A",
+                    "pending_ecc": "N/A"
+                },
+                "ecc_errors": {
+                    "volatile": {
+                        "single_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        },
+                        "double_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        }
+                    },
+                    "aggregate": {
+                        "single_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        },
+                        "double_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        }
+                    }
+                },
+                "retired_pages": {
+                    "multiple_single_bit_retirement": {
+                        "retired_count": "N/A",
+                        "retired_page_addresses": "N/A"
+                    },
+                    "double_bit_retirement": {
+                        "retired_count": "N/A",
+                        "retired_page_addresses": "N/A"
+                    },
+                    "pending_retirement": "N/A"
+                },
+                "temperature": {
+                    "gpu_temp": "48 C",
+                    "gpu_temp_max_threshold": "96 C",
+                    "gpu_temp_slow_threshold": "93 C",
+                    "gpu_temp_max_gpu_threshold": "N/A",
+                    "memory_temp": "N/A",
+                    "gpu_temp_max_mem_threshold": "N/A"
+                },
+                "power_readings": {
+                    "power_state": "P2",
+                    "power_management": "Supported",
+                    "power_draw": "248.85 W",
+                    "power_limit": "250.00 W",
+                    "default_power_limit": "250.00 W",
+                    "enforced_power_limit": "250.00 W",
+                    "min_power_limit": "125.00 W",
+                    "max_power_limit": "300.00 W"
+                },
+                "clocks": {
+                    "graphics_clock": "1809 MHz",
+                    "sm_clock": "1809 MHz",
+                    "mem_clock": "5005 MHz",
+                    "video_clock": "1544 MHz"
+                },
+                "applications_clocks": {
+                    "graphics_clock": "N/A",
+                    "mem_clock": "N/A"
+                },
+                "default_applications_clocks": {
+                    "graphics_clock": "N/A",
+                    "mem_clock": "N/A"
+                },
+                "max_clocks": {
+                    "graphics_clock": "1961 MHz",
+                    "sm_clock": "1961 MHz",
+                    "mem_clock": "5505 MHz",
+                    "video_clock": "1620 MHz"
+                },
+                "max_customer_boost_clocks": {
+                    "graphics_clock": "N/A"
+                },
+                "clock_policy": {
+                    "auto_boost": "N/A",
+                    "auto_boost_default": "N/A"
+                },
+                "supported_clocks": "N/A",
+                "processes": {
+                    "process_info": {
+                        "pid": "9900",
+                        "type": "C",
+                        "process_name": "C:\\Users\\jason\\AppData\\Roaming\\nhm2\\bin\\excavator_server\\excavator.exe",
+                        "used_memory": "N/A"
+                    }
+                },
+                "accounted_processes": null
+            },
+            {
+                "@id": "00000000:05:00.0",
+                "product_name": "GeForce GTX 1080 Ti",
+                "product_brand": "GeForce",
+                "display_mode": "Disabled",
+                "display_active": "Disabled",
+                "persistence_mode": "N/A",
+                "accounting_mode": "Disabled",
+                "accounting_mode_buffer_size": "1920",
+                "driver_model": {
+                    "current_dm": "WDDM",
+                    "pending_dm": "WDDM"
+                },
+                "serial": "N/A",
+                "uuid": "GPU-a84b4ac8-2fe3-45bf-25c5-41543c97d14d",
+                "minor_number": "N/A",
+                "vbios_version": "86.02.40.00.3A",
+                "multigpu_board": "No",
+                "board_id": "0x500",
+                "gpu_part_number": "N/A",
+                "inforom_version": {
+                    "img_version": "G001.0000.01.04",
+                    "oem_object": "1.1",
+                    "ecc_object": "N/A",
+                    "pwr_object": "N/A"
+                },
+                "gpu_operation_mode": {
+                    "current_gom": "N/A",
+                    "pending_gom": "N/A"
+                },
+                "gpu_virtualization_mode": {
+                    "virtualization_mode": "None"
+                },
+                "pci": {
+                    "pci_bus": "05",
+                    "pci_device": "00",
+                    "pci_domain": "0000",
+                    "pci_device_id": "1B0610DE",
+                    "pci_bus_id": "00000000:05:00.0",
+                    "pci_sub_system_id": "120F10DE",
+                    "pci_gpu_link_info": {
+                        "pcie_gen": {
+                            "max_link_gen": "2",
+                            "current_link_gen": "2"
+                        },
+                        "link_widths": {
+                            "max_link_width": "16x",
+                            "current_link_width": "1x"
+                        }
+                    },
+                    "pci_bridge_chip": {
+                        "bridge_chip_type": "N/A",
+                        "bridge_chip_fw": "N/A"
+                    },
+                    "replay_counter": "0",
+                    "tx_util": "7000 KB/s",
+                    "rx_util": "30000 KB/s"
+                },
+                "fan_speed": "100 %",
+                "performance_state": "P2",
+                "clocks_throttle_reasons": {
+                    "clocks_throttle_reason_gpu_idle": "Not Active",
+                    "clocks_throttle_reason_applications_clocks_setting": "Not Active",
+                    "clocks_throttle_reason_sw_power_cap": "Not Active",
+                    "clocks_throttle_reason_hw_slowdown": "Not Active",
+                    "clocks_throttle_reason_hw_thermal_slowdown": "Not Active",
+                    "clocks_throttle_reason_hw_power_brake_slowdown": "Not Active",
+                    "clocks_throttle_reason_sync_boost": "Not Active",
+                    "clocks_throttle_reason_sw_thermal_slowdown": "Not Active"
+                },
+                "fb_memory_usage": {
+                    "total": "11264 MiB",
+                    "used": "914 MiB",
+                    "free": "10350 MiB"
+                },
+                "bar1_memory_usage": {
+                    "total": "256 MiB",
+                    "used": "229 MiB",
+                    "free": "27 MiB"
+                },
+                "compute_mode": "Default",
+                "utilization": {
+                    "gpu_util": "99 %",
+                    "memory_util": "18 %",
+                    "encoder_util": "0 %",
+                    "decoder_util": "0 %"
+                },
+                "encoder_stats": {
+                    "session_count": "0",
+                    "average_fps": "0",
+                    "average_latency": "0"
+                },
+                "ecc_mode": {
+                    "current_ecc": "N/A",
+                    "pending_ecc": "N/A"
+                },
+                "ecc_errors": {
+                    "volatile": {
+                        "single_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        },
+                        "double_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        }
+                    },
+                    "aggregate": {
+                        "single_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        },
+                        "double_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        }
+                    }
+                },
+                "retired_pages": {
+                    "multiple_single_bit_retirement": {
+                        "retired_count": "N/A",
+                        "retired_page_addresses": "N/A"
+                    },
+                    "double_bit_retirement": {
+                        "retired_count": "N/A",
+                        "retired_page_addresses": "N/A"
+                    },
+                    "pending_retirement": "N/A"
+                },
+                "temperature": {
+                    "gpu_temp": "56 C",
+                    "gpu_temp_max_threshold": "96 C",
+                    "gpu_temp_slow_threshold": "93 C",
+                    "gpu_temp_max_gpu_threshold": "N/A",
+                    "memory_temp": "N/A",
+                    "gpu_temp_max_mem_threshold": "N/A"
+                },
+                "power_readings": {
+                    "power_state": "P2",
+                    "power_management": "Supported",
+                    "power_draw": "272.21 W",
+                    "power_limit": "260.00 W",
+                    "default_power_limit": "260.00 W",
+                    "enforced_power_limit": "260.00 W",
+                    "min_power_limit": "130.00 W",
+                    "max_power_limit": "300.00 W"
+                },
+                "clocks": {
+                    "graphics_clock": "1860 MHz",
+                    "sm_clock": "1860 MHz",
+                    "mem_clock": "5200 MHz",
+                    "video_clock": "1569 MHz"
+                },
+                "applications_clocks": {
+                    "graphics_clock": "N/A",
+                    "mem_clock": "N/A"
+                },
+                "default_applications_clocks": {
+                    "graphics_clock": "N/A",
+                    "mem_clock": "N/A"
+                },
+                "max_clocks": {
+                    "graphics_clock": "1999 MHz",
+                    "sm_clock": "1999 MHz",
+                    "mem_clock": "5705 MHz",
+                    "video_clock": "1620 MHz"
+                },
+                "max_customer_boost_clocks": {
+                    "graphics_clock": "N/A"
+                },
+                "clock_policy": {
+                    "auto_boost": "N/A",
+                    "auto_boost_default": "N/A"
+                },
+                "supported_clocks": "N/A",
+                "processes": {
+                    "process_info": {
+                        "pid": "9900",
+                        "type": "C",
+                        "process_name": "C:\\Users\\jason\\AppData\\Roaming\\nhm2\\bin\\excavator_server\\excavator.exe",
+                        "used_memory": "N/A"
+                    }
+                },
+                "accounted_processes": null
+            },
+            {
+                "@id": "00000000:06:00.0",
+                "product_name": "GeForce GTX 1080 Ti",
+                "product_brand": "GeForce",
+                "display_mode": "Disabled",
+                "display_active": "Disabled",
+                "persistence_mode": "N/A",
+                "accounting_mode": "Disabled",
+                "accounting_mode_buffer_size": "1920",
+                "driver_model": {
+                    "current_dm": "WDDM",
+                    "pending_dm": "WDDM"
+                },
+                "serial": "N/A",
+                "uuid": "GPU-ac97e5b6-fc88-98b6-a782-03518d893de6",
+                "minor_number": "N/A",
+                "vbios_version": "86.02.40.00.3A",
+                "multigpu_board": "No",
+                "board_id": "0x600",
+                "gpu_part_number": "N/A",
+                "inforom_version": {
+                    "img_version": "G001.0000.01.04",
+                    "oem_object": "1.1",
+                    "ecc_object": "N/A",
+                    "pwr_object": "N/A"
+                },
+                "gpu_operation_mode": {
+                    "current_gom": "N/A",
+                    "pending_gom": "N/A"
+                },
+                "gpu_virtualization_mode": {
+                    "virtualization_mode": "None"
+                },
+                "pci": {
+                    "pci_bus": "06",
+                    "pci_device": "00",
+                    "pci_domain": "0000",
+                    "pci_device_id": "1B0610DE",
+                    "pci_bus_id": "00000000:06:00.0",
+                    "pci_sub_system_id": "120F10DE",
+                    "pci_gpu_link_info": {
+                        "pcie_gen": {
+                            "max_link_gen": "2",
+                            "current_link_gen": "2"
+                        },
+                        "link_widths": {
+                            "max_link_width": "16x",
+                            "current_link_width": "1x"
+                        }
+                    },
+                    "pci_bridge_chip": {
+                        "bridge_chip_type": "N/A",
+                        "bridge_chip_fw": "N/A"
+                    },
+                    "replay_counter": "0",
+                    "tx_util": "10000 KB/s",
+                    "rx_util": "30000 KB/s"
+                },
+                "fan_speed": "100 %",
+                "performance_state": "P2",
+                "clocks_throttle_reasons": {
+                    "clocks_throttle_reason_gpu_idle": "Not Active",
+                    "clocks_throttle_reason_applications_clocks_setting": "Not Active",
+                    "clocks_throttle_reason_sw_power_cap": "Not Active",
+                    "clocks_throttle_reason_hw_slowdown": "Not Active",
+                    "clocks_throttle_reason_hw_thermal_slowdown": "Not Active",
+                    "clocks_throttle_reason_hw_power_brake_slowdown": "Not Active",
+                    "clocks_throttle_reason_sync_boost": "Not Active",
+                    "clocks_throttle_reason_sw_thermal_slowdown": "Not Active"
+                },
+                "fb_memory_usage": {
+                    "total": "11264 MiB",
+                    "used": "914 MiB",
+                    "free": "10350 MiB"
+                },
+                "bar1_memory_usage": {
+                    "total": "256 MiB",
+                    "used": "229 MiB",
+                    "free": "27 MiB"
+                },
+                "compute_mode": "Default",
+                "utilization": {
+                    "gpu_util": "99 %",
+                    "memory_util": "18 %",
+                    "encoder_util": "0 %",
+                    "decoder_util": "0 %"
+                },
+                "encoder_stats": {
+                    "session_count": "0",
+                    "average_fps": "0",
+                    "average_latency": "0"
+                },
+                "ecc_mode": {
+                    "current_ecc": "N/A",
+                    "pending_ecc": "N/A"
+                },
+                "ecc_errors": {
+                    "volatile": {
+                        "single_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        },
+                        "double_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        }
+                    },
+                    "aggregate": {
+                        "single_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        },
+                        "double_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        }
+                    }
+                },
+                "retired_pages": {
+                    "multiple_single_bit_retirement": {
+                        "retired_count": "N/A",
+                        "retired_page_addresses": "N/A"
+                    },
+                    "double_bit_retirement": {
+                        "retired_count": "N/A",
+                        "retired_page_addresses": "N/A"
+                    },
+                    "pending_retirement": "N/A"
+                },
+                "temperature": {
+                    "gpu_temp": "64 C",
+                    "gpu_temp_max_threshold": "96 C",
+                    "gpu_temp_slow_threshold": "93 C",
+                    "gpu_temp_max_gpu_threshold": "N/A",
+                    "memory_temp": "N/A",
+                    "gpu_temp_max_mem_threshold": "N/A"
+                },
+                "power_readings": {
+                    "power_state": "P2",
+                    "power_management": "Supported",
+                    "power_draw": "253.58 W",
+                    "power_limit": "260.00 W",
+                    "default_power_limit": "260.00 W",
+                    "enforced_power_limit": "260.00 W",
+                    "min_power_limit": "130.00 W",
+                    "max_power_limit": "300.00 W"
+                },
+                "clocks": {
+                    "graphics_clock": "1809 MHz",
+                    "sm_clock": "1809 MHz",
+                    "mem_clock": "5200 MHz",
+                    "video_clock": "1531 MHz"
+                },
+                "applications_clocks": {
+                    "graphics_clock": "N/A",
+                    "mem_clock": "N/A"
+                },
+                "default_applications_clocks": {
+                    "graphics_clock": "N/A",
+                    "mem_clock": "N/A"
+                },
+                "max_clocks": {
+                    "graphics_clock": "1999 MHz",
+                    "sm_clock": "1999 MHz",
+                    "mem_clock": "5705 MHz",
+                    "video_clock": "1620 MHz"
+                },
+                "max_customer_boost_clocks": {
+                    "graphics_clock": "N/A"
+                },
+                "clock_policy": {
+                    "auto_boost": "N/A",
+                    "auto_boost_default": "N/A"
+                },
+                "supported_clocks": "N/A",
+                "processes": {
+                    "process_info": {
+                        "pid": "9900",
+                        "type": "C",
+                        "process_name": "C:\\Users\\jason\\AppData\\Roaming\\nhm2\\bin\\excavator_server\\excavator.exe",
+                        "used_memory": "N/A"
+                    }
+                },
+                "accounted_processes": null
+            },
+            {
+                "@id": "00000000:07:00.0",
+                "product_name": "GeForce GTX 1080 Ti",
+                "product_brand": "GeForce",
+                "display_mode": "Disabled",
+                "display_active": "Disabled",
+                "persistence_mode": "N/A",
+                "accounting_mode": "Disabled",
+                "accounting_mode_buffer_size": "1920",
+                "driver_model": {
+                    "current_dm": "WDDM",
+                    "pending_dm": "WDDM"
+                },
+                "serial": "N/A",
+                "uuid": "GPU-f766ab66-7720-02e7-0c31-c4564277dab3",
+                "minor_number": "N/A",
+                "vbios_version": "86.02.40.00.3A",
+                "multigpu_board": "No",
+                "board_id": "0x700",
+                "gpu_part_number": "N/A",
+                "inforom_version": {
+                    "img_version": "G001.0000.01.04",
+                    "oem_object": "1.1",
+                    "ecc_object": "N/A",
+                    "pwr_object": "N/A"
+                },
+                "gpu_operation_mode": {
+                    "current_gom": "N/A",
+                    "pending_gom": "N/A"
+                },
+                "gpu_virtualization_mode": {
+                    "virtualization_mode": "None"
+                },
+                "pci": {
+                    "pci_bus": "07",
+                    "pci_device": "00",
+                    "pci_domain": "0000",
+                    "pci_device_id": "1B0610DE",
+                    "pci_bus_id": "00000000:07:00.0",
+                    "pci_sub_system_id": "120F10DE",
+                    "pci_gpu_link_info": {
+                        "pcie_gen": {
+                            "max_link_gen": "2",
+                            "current_link_gen": "2"
+                        },
+                        "link_widths": {
+                            "max_link_width": "16x",
+                            "current_link_width": "1x"
+                        }
+                    },
+                    "pci_bridge_chip": {
+                        "bridge_chip_type": "N/A",
+                        "bridge_chip_fw": "N/A"
+                    },
+                    "replay_counter": "0",
+                    "tx_util": "16000 KB/s",
+                    "rx_util": "57000 KB/s"
+                },
+                "fan_speed": "100 %",
+                "performance_state": "P2",
+                "clocks_throttle_reasons": {
+                    "clocks_throttle_reason_gpu_idle": "Not Active",
+                    "clocks_throttle_reason_applications_clocks_setting": "Not Active",
+                    "clocks_throttle_reason_sw_power_cap": "Not Active",
+                    "clocks_throttle_reason_hw_slowdown": "Not Active",
+                    "clocks_throttle_reason_hw_thermal_slowdown": "Not Active",
+                    "clocks_throttle_reason_hw_power_brake_slowdown": "Not Active",
+                    "clocks_throttle_reason_sync_boost": "Not Active",
+                    "clocks_throttle_reason_sw_thermal_slowdown": "Not Active"
+                },
+                "fb_memory_usage": {
+                    "total": "11264 MiB",
+                    "used": "914 MiB",
+                    "free": "10350 MiB"
+                },
+                "bar1_memory_usage": {
+                    "total": "256 MiB",
+                    "used": "229 MiB",
+                    "free": "27 MiB"
+                },
+                "compute_mode": "Default",
+                "utilization": {
+                    "gpu_util": "99 %",
+                    "memory_util": "18 %",
+                    "encoder_util": "0 %",
+                    "decoder_util": "0 %"
+                },
+                "encoder_stats": {
+                    "session_count": "0",
+                    "average_fps": "0",
+                    "average_latency": "0"
+                },
+                "ecc_mode": {
+                    "current_ecc": "N/A",
+                    "pending_ecc": "N/A"
+                },
+                "ecc_errors": {
+                    "volatile": {
+                        "single_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        },
+                        "double_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        }
+                    },
+                    "aggregate": {
+                        "single_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        },
+                        "double_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        }
+                    }
+                },
+                "retired_pages": {
+                    "multiple_single_bit_retirement": {
+                        "retired_count": "N/A",
+                        "retired_page_addresses": "N/A"
+                    },
+                    "double_bit_retirement": {
+                        "retired_count": "N/A",
+                        "retired_page_addresses": "N/A"
+                    },
+                    "pending_retirement": "N/A"
+                },
+                "temperature": {
+                    "gpu_temp": "58 C",
+                    "gpu_temp_max_threshold": "96 C",
+                    "gpu_temp_slow_threshold": "93 C",
+                    "gpu_temp_max_gpu_threshold": "N/A",
+                    "memory_temp": "N/A",
+                    "gpu_temp_max_mem_threshold": "N/A"
+                },
+                "power_readings": {
+                    "power_state": "P2",
+                    "power_management": "Supported",
+                    "power_draw": "275.33 W",
+                    "power_limit": "260.00 W",
+                    "default_power_limit": "260.00 W",
+                    "enforced_power_limit": "260.00 W",
+                    "min_power_limit": "130.00 W",
+                    "max_power_limit": "300.00 W"
+                },
+                "clocks": {
+                    "graphics_clock": "1835 MHz",
+                    "sm_clock": "1835 MHz",
+                    "mem_clock": "5200 MHz",
+                    "video_clock": "1556 MHz"
+                },
+                "applications_clocks": {
+                    "graphics_clock": "N/A",
+                    "mem_clock": "N/A"
+                },
+                "default_applications_clocks": {
+                    "graphics_clock": "N/A",
+                    "mem_clock": "N/A"
+                },
+                "max_clocks": {
+                    "graphics_clock": "1999 MHz",
+                    "sm_clock": "1999 MHz",
+                    "mem_clock": "5705 MHz",
+                    "video_clock": "1620 MHz"
+                },
+                "max_customer_boost_clocks": {
+                    "graphics_clock": "N/A"
+                },
+                "clock_policy": {
+                    "auto_boost": "N/A",
+                    "auto_boost_default": "N/A"
+                },
+                "supported_clocks": "N/A",
+                "processes": {
+                    "process_info": {
+                        "pid": "9900",
+                        "type": "C",
+                        "process_name": "C:\\Users\\jason\\AppData\\Roaming\\nhm2\\bin\\excavator_server\\excavator.exe",
+                        "used_memory": "N/A"
+                    }
+                },
+                "accounted_processes": null
+            },
+            {
+                "@id": "00000000:08:00.0",
+                "product_name": "GeForce GTX 1060 6GB",
+                "product_brand": "GeForce",
+                "display_mode": "Disabled",
+                "display_active": "Disabled",
+                "persistence_mode": "N/A",
+                "accounting_mode": "Disabled",
+                "accounting_mode_buffer_size": "1920",
+                "driver_model": {
+                    "current_dm": "WDDM",
+                    "pending_dm": "WDDM"
+                },
+                "serial": "N/A",
+                "uuid": "GPU-7edbe1a7-9ca2-3d5c-b248-a831e59841ad",
+                "minor_number": "N/A",
+                "vbios_version": "86.06.45.00.39",
+                "multigpu_board": "No",
+                "board_id": "0x800",
+                "gpu_part_number": "N/A",
+                "inforom_version": {
+                    "img_version": "G001.0000.01.04",
+                    "oem_object": "1.1",
+                    "ecc_object": "N/A",
+                    "pwr_object": "N/A"
+                },
+                "gpu_operation_mode": {
+                    "current_gom": "N/A",
+                    "pending_gom": "N/A"
+                },
+                "gpu_virtualization_mode": {
+                    "virtualization_mode": "None"
+                },
+                "pci": {
+                    "pci_bus": "08",
+                    "pci_device": "00",
+                    "pci_domain": "0000",
+                    "pci_device_id": "1C0310DE",
+                    "pci_bus_id": "00000000:08:00.0",
+                    "pci_sub_system_id": "144019DA",
+                    "pci_gpu_link_info": {
+                        "pcie_gen": {
+                            "max_link_gen": "2",
+                            "current_link_gen": "2"
+                        },
+                        "link_widths": {
+                            "max_link_width": "16x",
+                            "current_link_width": "1x"
+                        }
+                    },
+                    "pci_bridge_chip": {
+                        "bridge_chip_type": "N/A",
+                        "bridge_chip_fw": "N/A"
+                    },
+                    "replay_counter": "0",
+                    "tx_util": "10000 KB/s",
+                    "rx_util": "60000 KB/s"
+                },
+                "fan_speed": "100 %",
+                "performance_state": "P2",
+                "clocks_throttle_reasons": {
+                    "clocks_throttle_reason_gpu_idle": "Not Active",
+                    "clocks_throttle_reason_applications_clocks_setting": "Not Active",
+                    "clocks_throttle_reason_sw_power_cap": "Active",
+                    "clocks_throttle_reason_hw_slowdown": "Not Active",
+                    "clocks_throttle_reason_hw_thermal_slowdown": "Not Active",
+                    "clocks_throttle_reason_hw_power_brake_slowdown": "Not Active",
+                    "clocks_throttle_reason_sync_boost": "Not Active",
+                    "clocks_throttle_reason_sw_thermal_slowdown": "Not Active"
+                },
+                "fb_memory_usage": {
+                    "total": "6144 MiB",
+                    "used": "4402 MiB",
+                    "free": "1742 MiB"
+                },
+                "bar1_memory_usage": {
+                    "total": "256 MiB",
+                    "used": "229 MiB",
+                    "free": "27 MiB"
+                },
+                "compute_mode": "Default",
+                "utilization": {
+                    "gpu_util": "100 %",
+                    "memory_util": "76 %",
+                    "encoder_util": "0 %",
+                    "decoder_util": "0 %"
+                },
+                "encoder_stats": {
+                    "session_count": "0",
+                    "average_fps": "0",
+                    "average_latency": "0"
+                },
+                "ecc_mode": {
+                    "current_ecc": "N/A",
+                    "pending_ecc": "N/A"
+                },
+                "ecc_errors": {
+                    "volatile": {
+                        "single_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        },
+                        "double_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        }
+                    },
+                    "aggregate": {
+                        "single_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        },
+                        "double_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        }
+                    }
+                },
+                "retired_pages": {
+                    "multiple_single_bit_retirement": {
+                        "retired_count": "N/A",
+                        "retired_page_addresses": "N/A"
+                    },
+                    "double_bit_retirement": {
+                        "retired_count": "N/A",
+                        "retired_page_addresses": "N/A"
+                    },
+                    "pending_retirement": "N/A"
+                },
+                "temperature": {
+                    "gpu_temp": "40 C",
+                    "gpu_temp_max_threshold": "102 C",
+                    "gpu_temp_slow_threshold": "99 C",
+                    "gpu_temp_max_gpu_threshold": "N/A",
+                    "memory_temp": "N/A",
+                    "gpu_temp_max_mem_threshold": "N/A"
+                },
+                "power_readings": {
+                    "power_state": "P2",
+                    "power_management": "Supported",
+                    "power_draw": "114.73 W",
+                    "power_limit": "130.00 W",
+                    "default_power_limit": "130.00 W",
+                    "enforced_power_limit": "130.00 W",
+                    "min_power_limit": "65.00 W",
+                    "max_power_limit": "152.00 W"
+                },
+                "clocks": {
+                    "graphics_clock": "1949 MHz",
+                    "sm_clock": "1949 MHz",
+                    "mem_clock": "3802 MHz",
+                    "video_clock": "1746 MHz"
+                },
+                "applications_clocks": {
+                    "graphics_clock": "N/A",
+                    "mem_clock": "N/A"
+                },
+                "default_applications_clocks": {
+                    "graphics_clock": "N/A",
+                    "mem_clock": "N/A"
+                },
+                "max_clocks": {
+                    "graphics_clock": "1974 MHz",
+                    "sm_clock": "1974 MHz",
+                    "mem_clock": "4004 MHz",
+                    "video_clock": "1708 MHz"
+                },
+                "max_customer_boost_clocks": {
+                    "graphics_clock": "N/A"
+                },
+                "clock_policy": {
+                    "auto_boost": "N/A",
+                    "auto_boost_default": "N/A"
+                },
+                "supported_clocks": "N/A",
+                "processes": {
+                    "process_info": {
+                        "pid": "9900",
+                        "type": "C",
+                        "process_name": "C:\\Users\\jason\\AppData\\Roaming\\nhm2\\bin\\excavator_server\\excavator.exe",
+                        "used_memory": "N/A"
+                    }
+                },
+                "accounted_processes": null
+            },
+            {
+                "@id": "00000000:09:00.0",
+                "product_name": "GeForce GTX 1080 Ti",
+                "product_brand": "GeForce",
+                "display_mode": "Disabled",
+                "display_active": "Disabled",
+                "persistence_mode": "N/A",
+                "accounting_mode": "Disabled",
+                "accounting_mode_buffer_size": "1920",
+                "driver_model": {
+                    "current_dm": "WDDM",
+                    "pending_dm": "WDDM"
+                },
+                "serial": "N/A",
+                "uuid": "GPU-85da87e9-13c3-8639-3529-fa481fd2b925",
+                "minor_number": "N/A",
+                "vbios_version": "86.02.39.00.6A",
+                "multigpu_board": "No",
+                "board_id": "0x900",
+                "gpu_part_number": "N/A",
+                "inforom_version": {
+                    "img_version": "G001.0000.01.04",
+                    "oem_object": "1.1",
+                    "ecc_object": "N/A",
+                    "pwr_object": "N/A"
+                },
+                "gpu_operation_mode": {
+                    "current_gom": "N/A",
+                    "pending_gom": "N/A"
+                },
+                "gpu_virtualization_mode": {
+                    "virtualization_mode": "None"
+                },
+                "pci": {
+                    "pci_bus": "09",
+                    "pci_device": "00",
+                    "pci_domain": "0000",
+                    "pci_device_id": "1B0610DE",
+                    "pci_bus_id": "00000000:09:00.0",
+                    "pci_sub_system_id": "374C1458",
+                    "pci_gpu_link_info": {
+                        "pcie_gen": {
+                            "max_link_gen": "2",
+                            "current_link_gen": "2"
+                        },
+                        "link_widths": {
+                            "max_link_width": "16x",
+                            "current_link_width": "1x"
+                        }
+                    },
+                    "pci_bridge_chip": {
+                        "bridge_chip_type": "N/A",
+                        "bridge_chip_fw": "N/A"
+                    },
+                    "replay_counter": "0",
+                    "tx_util": "8000 KB/s",
+                    "rx_util": "54000 KB/s"
+                },
+                "fan_speed": "100 %",
+                "performance_state": "P2",
+                "clocks_throttle_reasons": {
+                    "clocks_throttle_reason_gpu_idle": "Not Active",
+                    "clocks_throttle_reason_applications_clocks_setting": "Not Active",
+                    "clocks_throttle_reason_sw_power_cap": "Not Active",
+                    "clocks_throttle_reason_hw_slowdown": "Not Active",
+                    "clocks_throttle_reason_hw_thermal_slowdown": "Not Active",
+                    "clocks_throttle_reason_hw_power_brake_slowdown": "Not Active",
+                    "clocks_throttle_reason_sync_boost": "Not Active",
+                    "clocks_throttle_reason_sw_thermal_slowdown": "Not Active"
+                },
+                "fb_memory_usage": {
+                    "total": "11264 MiB",
+                    "used": "914 MiB",
+                    "free": "10350 MiB"
+                },
+                "bar1_memory_usage": {
+                    "total": "256 MiB",
+                    "used": "229 MiB",
+                    "free": "27 MiB"
+                },
+                "compute_mode": "Default",
+                "utilization": {
+                    "gpu_util": "99 %",
+                    "memory_util": "18 %",
+                    "encoder_util": "0 %",
+                    "decoder_util": "0 %"
+                },
+                "encoder_stats": {
+                    "session_count": "0",
+                    "average_fps": "0",
+                    "average_latency": "0"
+                },
+                "ecc_mode": {
+                    "current_ecc": "N/A",
+                    "pending_ecc": "N/A"
+                },
+                "ecc_errors": {
+                    "volatile": {
+                        "single_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        },
+                        "double_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        }
+                    },
+                    "aggregate": {
+                        "single_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        },
+                        "double_bit": {
+                            "device_memory": "N/A",
+                            "register_file": "N/A",
+                            "l1_cache": "N/A",
+                            "l2_cache": "N/A",
+                            "texture_memory": "N/A",
+                            "texture_shm": "N/A",
+                            "cbu": "N/A",
+                            "total": "N/A"
+                        }
+                    }
+                },
+                "retired_pages": {
+                    "multiple_single_bit_retirement": {
+                        "retired_count": "N/A",
+                        "retired_page_addresses": "N/A"
+                    },
+                    "double_bit_retirement": {
+                        "retired_count": "N/A",
+                        "retired_page_addresses": "N/A"
+                    },
+                    "pending_retirement": "N/A"
+                },
+                "temperature": {
+                    "gpu_temp": "44 C",
+                    "gpu_temp_max_threshold": "96 C",
+                    "gpu_temp_slow_threshold": "93 C",
+                    "gpu_temp_max_gpu_threshold": "N/A",
+                    "memory_temp": "N/A",
+                    "gpu_temp_max_mem_threshold": "N/A"
+                },
+                "power_readings": {
+                    "power_state": "P2",
+                    "power_management": "Supported",
+                    "power_draw": "259.67 W",
+                    "power_limit": "250.00 W",
+                    "default_power_limit": "250.00 W",
+                    "enforced_power_limit": "250.00 W",
+                    "min_power_limit": "125.00 W",
+                    "max_power_limit": "300.00 W"
+                },
+                "clocks": {
+                    "graphics_clock": "1759 MHz",
+                    "sm_clock": "1759 MHz",
+                    "mem_clock": "5005 MHz",
+                    "video_clock": "1493 MHz"
+                },
+                "applications_clocks": {
+                    "graphics_clock": "N/A",
+                    "mem_clock": "N/A"
+                },
+                "default_applications_clocks": {
+                    "graphics_clock": "N/A",
+                    "mem_clock": "N/A"
+                },
+                "max_clocks": {
+                    "graphics_clock": "1949 MHz",
+                    "sm_clock": "1949 MHz",
+                    "mem_clock": "5505 MHz",
+                    "video_clock": "1620 MHz"
+                },
+                "max_customer_boost_clocks": {
+                    "graphics_clock": "N/A"
+                },
+                "clock_policy": {
+                    "auto_boost": "N/A",
+                    "auto_boost_default": "N/A"
+                },
+                "supported_clocks": "N/A",
+                "processes": {
+                    "process_info": {
+                        "pid": "9900",
+                        "type": "C",
+                        "process_name": "C:\\Users\\jason\\AppData\\Roaming\\nhm2\\bin\\excavator_server\\excavator.exe",
+                        "used_memory": "N/A"
+                    }
+                },
+                "accounted_processes": null
+            }
+        ]
+    }
+}
